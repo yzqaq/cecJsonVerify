@@ -1,0 +1,168 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "StartChargeSeq": {
+            "type": "string",
+            "maxLength": 27,
+            "minLength": 27
+        },
+        "StartChargeSeqStat": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ConnectorID": {
+            "type": "string"
+        },
+        "ConnectorStatus": {
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4,
+                255
+            ]
+        },
+        "CurrentA": {
+            "type": "number"
+        },
+        "CurrentB": {
+            "type": "number"
+        },
+        "CurrentC": {
+            "type": "number"
+        },
+        "VoltageA": {
+            "type": "number"
+        },
+        "VoltageB": {
+            "type": "number"
+        },
+        "VoltageC": {
+            "type": "number"
+        },
+        "Soc": {
+            "type": "number"
+        },
+        "PlateNo": {
+            "type": "string"
+        },
+        "Phone": {
+            "type": "string"
+        },
+        "Vin": {
+            "type": "string"
+        },
+        "StartTime": {
+            "type": "string"
+        },
+        "EndTime": {
+            "type": "string"
+        },
+        "TotalPower": {
+            "type": "number",
+            "title": "%.3",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "ElecMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "SeviceMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "TotalMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "SumPeriod": {
+            "type": "integer"
+        },
+        "ChargeDetails": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/charge_detail"
+            }
+        }
+    },
+    "required": [
+        "StartChargeSeq",
+        "StartChargeSeqStat",
+        "ConnectorID",
+        "ConnectorStatus",
+        "CurrentA",
+        "VoltageA",
+        "Soc",
+        "StartTime",
+        "EndTime",
+        "TotalPower",
+        "ChargeDetails"
+    ],
+    "definitions": {
+        "charge_detail": {
+            "type": "object",
+            "properties": {
+                "DetailStartTime": {
+                    "type": "string"
+                },
+                "DetailEndTime": {
+                    "type": "string"
+                },
+                "ElecPrice": {
+                    "type": "number",
+                    "title": "%.4",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "SevicePrice": {
+                    "type": "number",
+                    "title": "%.4",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailPower": {
+                    "type": "number",
+                    "title": "%.3",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailElecMoney": {
+                    "type": "number",
+                    "title": "%.2",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailSeviceMoney": {
+                    "type": "number",
+                    "title": "%.2",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                }
+            },
+            "required": [
+                "DetailStartTime",
+                "DetailEndTime",
+                "ElecPrice",
+                "SevicePrice",
+                "DetailPower",
+                "DetailElecMoney",
+                "DetailSeviceMoney"
+            ]
+        }
+    }
+}

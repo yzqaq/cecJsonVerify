@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "ConnectorStatusInfos": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/station_status_info"
+            },
+            "required": [
+                "ConnectorID",
+                "Status"
+            ]
+        }
+    },
+    "required": [
+        "ConnectorStatusInfos"
+    ],
+    "definitions": {
+        "station_status_info": {
+            "type": "object",
+            "properties": {
+                "ConnectorID": {
+                    "type": "string",
+                    "maxLength": 50
+                },
+                "Status": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        255
+                    ]
+                },
+                "ParkStatus": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        10,
+                        50
+                    ]
+                },
+                "LockStatus": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        10,
+                        50
+                    ]
+                },
+                "AuxPower": {
+                    "type": "integer",
+                    "enum": [
+                        24,
+                        12
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "StartChargeSeq": {
+            "type": "string",
+            "maxLength": 27,
+            "minLength": 27
+        },
+        "ConnectorID": {
+            "type": "string"
+        },
+        "StartTime": {
+            "type": "string"
+        },
+        "EndTime": {
+            "type": "string"
+        },
+        "TotalPower": {
+            "type": "number",
+            "title": "%.3",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "TotalElecMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "TotalSeviceMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "TotalMoney": {
+            "type": "number",
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "StopReason": {
+            "type": "integer",
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "SumPeriod": {
+            "type": "integer"
+        },
+        "ChargeDetails": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/charge_detail"
+            }
+        },
+        "AccountDate": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "StartChargeSeq",
+        "ConnectorID",
+        "StartTime",
+        "EndTime",
+        "TotalPower",
+        "StopReason",
+        "ChargeDetails"
+    ],
+    "definitions": {
+        "charge_detail": {
+            "type": "object",
+            "properties": {
+                "DetailStartTime": {
+                    "type": "string"
+                },
+                "DetailEndTime": {
+                    "type": "string"
+                },
+                "ElecPrice": {
+                    "type": "number",
+                    "title": "%.4",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "SevicePrice": {
+                    "type": "number",
+                    "title": "%.4",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailPower": {
+                    "type": "number",
+                    "title": "%.3",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailElecMoney": {
+                    "type": "number",
+                    "title": "%.2",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "DetailSeviceMoney": {
+                    "type": "number",
+                    "title": "%.2",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                }
+            },
+            "required": [
+                "DetailStartTime",
+                "DetailEndTime",
+                "ElecPrice",
+                "SevicePrice",
+                "DetailPower",
+                "DetailElecMoney",
+                "DetailSeviceMoney"
+            ]
+        }
+    }
+}

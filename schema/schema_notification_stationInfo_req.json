@@ -1,0 +1,347 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "StationInfos": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/station_info"
+            }
+        }
+    },
+    "required": [
+        "StationInfos"
+    ],
+    "definitions": {
+        "station_info": {
+            "$id": "#station_info",
+            "type": "object",
+            "properties": {
+                "StationID": {
+                    "type": "string"
+                },
+                "OperatorID": {
+                    "$ref": "#/definitions/operator_id"
+                },
+                "EquipmentOwnerID": {
+                    "$ref": "#/definitions/operator_id"
+                },
+                "StationName": {
+                    "type": "string"
+                },
+                "CountryCode": {
+                    "type": "string"
+                },
+                "AreaCode": {
+                    "type": "string"
+                },
+                "Address": {
+                    "type": "string"
+                },
+                "StationTel": {
+                    "type": "string"
+                },
+                "ServiceTel": {
+                    "type": "string"
+                },
+                "StationType": {
+                    "type": "integer",
+                    "enum": [
+                        1,
+                        50,
+                        100,
+                        101,
+                        102,
+                        103,
+                        255
+                    ]
+                },
+                "StationStatus": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1,
+                        5,
+                        6,
+                        50
+                    ]
+                },
+                "ParkNums": {
+                    "type": "integer"
+                },
+                "StationLng": {
+                    "$ref": "#/definitions/lat"
+                },
+                "StationLat": {
+                    "$ref": "#/definitions/lat"
+                },
+                "SiteGuide": {
+                    "type": "string"
+                },
+                "Construction": {
+                    "type": "integer",
+                    "enum": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        255
+                    ]
+                },
+                "Pictures": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "MatchCars": {
+                    "type": "string"
+                },
+                "ParkInfo": {
+                    "type": "string",
+                    "maxLength": 100
+                },
+                "BusineHours724": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                },
+                "BusineHours": {
+                    "type": "string",
+                    "maxLength": 100
+                },
+                "BusineHoursFormat": {
+                    "type": "string",
+                    "maxLength": 200
+                },
+                "ElectricityFee": {
+                    "type": "string"
+                },
+                "ServiceFee": {
+                    "type": "string"
+                },
+                "ParkFeeFree": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                },
+                "ParkFee": {
+                    "type": "string",
+                    "maxLength": 100
+                },
+                "SupportOrder": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                },
+                "Remark": {
+                    "type": "string",
+                    "maxLength": 100
+                },
+                "EquipmentInfos": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/equipment_info"
+                    }
+                },
+                "ElectricityTax": {
+                    "type": "number",
+                    "title": "%.1",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "ServiceTax": {
+                    "type": "number",
+                    "title": "%.1",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                }
+            },
+            "required": [
+                "StationID",
+                "OperatorID",
+                "EquipmentOwnerID",
+                "StationName",
+                "CountryCode",
+                "AreaCode",
+                "Address",
+                "ServiceTel",
+                "StationType",
+                "StationStatus",
+                "ParkNums",
+                "StationLng",
+                "StationLat",
+                "Construction",
+                "ElectricityFee",
+                "ServiceFee",
+                "EquipmentInfos",
+                "ElectricityTax",
+                "ServiceTax"
+            ]
+        },
+        "operator_id": {
+            "$id": "#operator_id",
+            "type": "string",
+            "maxLength": 9,
+            "minLength": 9
+        },
+        "lat": {
+            "$id": "#lat",
+            "type": "number",
+            "title": "%.6",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
+        },
+        "equipment_info": {
+            "$id": "#equipment_info",
+            "type": "object",
+            "properties": {
+                "EquipmentID": {
+                    "type": "string",
+                    "maxLength": 50
+                },
+                "ManufacturerID": {
+                    "type": "string",
+                    "maxLength": 9
+                },
+                "ManufacturerName": {
+                    "type": "string",
+                    "maxLength": 30
+                },
+                "EquipmentModel": {
+                    "type": "string",
+                    "maxLength": 20
+                },
+                "ProductionDate": {
+                    "type": "string",
+                    "maxLength": 30
+                },
+                "EquipmentType": {
+                    "type": "integer",
+                    "enum": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                "ConnectorInfos": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/connector_info"
+                    }
+                },
+                "EquipmentLng": {
+                    "$ref": "#/definitions/lat"
+                },
+                "EquipmentLat": {
+                    "$ref": "#/definitions/lat"
+                },
+                "Power": {
+                    "type": "number",
+                    "title": "%.1",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "EquipmentName": {
+                    "type": "string",
+                    "maxLength": 30
+                }
+            },
+            "required": [
+                "EquipmentID",
+                "EquipmentType",
+                "ConnectorInfos",
+                "Power"
+            ]
+        },
+        "connector_info": {
+            "$id": "#connector_info",
+            "type": "object",
+            "properties": {
+                "ConnectorID": {
+                    "type": "string",
+                    "maxLength": 50
+                },
+                "ConnectorName": {
+                    "type": "string",
+                    "maxLength": 30
+                },
+                "ConnectorType": {
+                    "type": "integer",
+                    "enum": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "VoltageUpperLimits": {
+                    "type": "integer"
+                },
+                "VoltageLowerLimits": {
+                    "type": "integer"
+                },
+                "Current": {
+                    "type": "integer"
+                },
+                "Power": {
+                    "type": "number",
+                    "title": "%.1",
+                    "exclusiveMaximum": 1,
+                    "exclusiveMinimum": 1
+                },
+                "ParkNo": {
+                    "type": "string",
+                    "maxLength": 10
+                },
+                "NationalStandard": {
+                    "type": "integer",
+                    "enum": [
+                        1,
+                        2
+                    ]
+                },
+                "AuxPower": {
+                    "type": "integer",
+                    "enum": [
+                        24,
+                        12
+                    ]
+                },
+                "StartType": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                }
+            },
+            "required": [
+                "ConnectorID",
+                "ConnectorType",
+                "VoltageUpperLimits",
+                "VoltageLowerLimits",
+                "Current",
+                "Power",
+                "NationalStandard"
+            ]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "OperatorID": {
+            "type": "string",
+            "maxLength": 9,
+            "minLength": 9
+        },
+        "Data": {
+            "type": "object"
+        },
+        "TimeStamp": {
+            "type": "string"
+        },
+        "Seq": {
+            "type": "string"
+        },
+        "Sig": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "OperatorID",
+        "Data"
+    ]
+}
