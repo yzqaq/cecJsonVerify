@@ -4,10 +4,9 @@
     "properties": {
         "price": {
             "type": "number",
-            "multipleOf": 0.001,
-            "not": {
-                "multipleOf": 0.01
-            }
+            "title": "%.2",
+            "exclusiveMaximum": 1,
+            "exclusiveMinimum": 1
         },
         "name": {
             "type": "string"
