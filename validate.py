@@ -5,7 +5,6 @@ import os
 shema_path = "schema"
 json_path = "json"
 
-
 def fun1(schema_file: str, json_file: str):
     with open(os.path.join(shema_path, schema_file+".json")) as f_schema, open(os.path.join(json_path, json_file+".json")) as f_json:
         schema = json.load(f_schema)
@@ -35,7 +34,7 @@ if __name__ == "__main__":
     keys = [
             "notification_charge_order_info_req",
             "notification_stationInfo_req",
-            "otification_stationStatus_req",
+            "notification_stationStatus_req",
             "query_equip_business_policy_res",
             "query_equip_charge_status_res",
             "query_stations_info_res"

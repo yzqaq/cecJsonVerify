@@ -1,0 +1,9 @@
+{
+    "ConnectorStatusInfo": {
+        "ConnectorID": "864333042707596_1",
+        "Status": 2,
+        "ParkStatus": null,
+        "LockStatus": null,
+        "AuxPower": null
+    }
+}
