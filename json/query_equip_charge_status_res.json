@@ -1,40 +1,23 @@
 {
-    "StartChargeSeq": "MA01H3BQ1202008281414090001",
-    "StartChargeSeqStat": 2,
-    "ConnectorID": "sz003_1",
+    "StartChargeSeq": "MA01H3BQ1202011101428100001",
+    "StartChargeSeqStat": 4,
+    "ConnectorID": "20099_1",
     "ConnectorStatus": 3,
-    "CurrentA": 20.62,
-    "VoltageA": 602.9,
-    "Soc": 100.0,
-    "StartTime": "2020-08-28 14:14:10",
-    "TotalPower": 27.26,
-    "ElecMoney": 27.26,
-    "SeviceMoney": 21.8,
-    "TotalMoney": 49.06,
-    "PlateNo": "",
-    "Phone": "",
-    "EndTime": "2020-08-28 14:47:36",
-    "BmsNeedVoltage": 0.0,
-    "BmsNeedCurrent": 0.0,
-    "SumPeriod": 2,
+    "TotalPower": 0.021,
+    "CurrentA": 7,
+    "VoltageA": 397,
+    "Soc": 30,
+    "StartTime": "2020-11-10 14:28:12",
+    "EndTime": "2020-11-10 14:29:11",
     "ChargeDetails": [
         {
-            "DetailStartTime": "2020-08-28 14:14:10",
-            "DetailEndTime": "2020-08-28 14:47:36",
-            "ElecPrice": 0.1237,
-            "SevicePrice": 0.1237,
-            "DetailPower": 0.0,
-            "DetailElecMoney": 0.0,
-            "DetailSeviceMoney": 0.0
-        },
-        {
-            "DetailStartTime": "2020-08-28 14:14:10",
-            "DetailEndTime": "2020-08-28 14:47:36",
-            "ElecPrice": 0.1237,
-            "SevicePrice": 0.1237,
-            "DetailPower": 0.0,
-            "DetailElecMoney": 0.0,
-            "DetailSeviceMoney": 0.0
+            "DetailStartTime": "2020-11-10 14:28:12",
+            "DetailEndTime": "2020-11-10 14:28:57",
+            "ElecPrice": 0.78,
+            "SevicePrice": 0.2,
+            "DetailPower": 0.021,
+            "DetailElecMoney": 0.16,
+            "DetailSeviceMoney": 0.04
         }
     ]
 }

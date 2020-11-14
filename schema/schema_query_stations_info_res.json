@@ -145,7 +145,10 @@
                     "type": "integer",
                     "enum": [
                         0,
-                        1
+                        1,
+                        2,
+                        3,
+                        4
                     ]
                 },
                 "ParkFee": {
@@ -200,6 +203,8 @@
                 "ElectricityFee",
                 "ServiceFee",
                 "EquipmentInfos",
+                "ParkFeeFree",
+                "ParkFee",
                 "ElectricityTax",
                 "ServiceTax"
             ]

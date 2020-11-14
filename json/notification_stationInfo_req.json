@@ -1,3 +1,521 @@
 {
-    
+    "OperatorID": "MA01H3BQ1",
+    "StationInfos": [
+        {
+            "Pictures": [
+                "1",
+                "2",
+                "3"
+            ],
+            "StationLng": 114.386753,
+            "SiteGuide": "峰期（10：00~12：00；18：00~22：00 ） 平期（8：00~10：00；12：00~18：00；22：00~24：00） 谷期（0：00~8：00）",
+            "Address": "湖北省武汉市黄陂区五洲国际建材城",
+            "ServiceTel": "19986925874",
+            "SupportOrder": 0,
+            "ParkFeeFree": 1,
+            "OperatorID": "MA4K2GJN6",
+            "StationID": "MA4K2GJN6_26",
+            "Remark": "100",
+            "StationName": "畅跑五洲国际充电站",
+            "StationTel": "19986925874",
+            "ServiceTax": 6,
+            "PolicyInfos": {
+                "ValleyTimes": "00:00-06:00",
+                "PeakElectricPrice": 120,
+                "PeakServicePrice": 5,
+                "FlatServicePrice": 25,
+                "FlatElectricPrice": 83,
+                "ValleyServicePrice": 28,
+                "FlatTimes": "06:00-10:00,12:00-18:00,22:00-24:00",
+                "PeakTimes": "10:00-12:00,18:00-22:00",
+                "ValleyElectricPrice": 40
+            },
+            "StationLat": 30.720032,
+            "ElectricityTax": 13,
+            "StationStatus": 50,
+            "CountryCode": "CN",
+            "StationType": 1,
+            "EquipmentOwnerID": "MA4K2GJN6",
+            "Construction": 255,
+            "ParkFee": "0",
+            "ServiceFee": "[{\"StatrTime\":\"10:00-12:00;18:00-22:00\",\"Price\":\"0.0500\"},{\"StatrTime\":\"06:00-10:00;12:00-18:00;22:00-24:00\",\"Price\":\"0.2500\"},{\"StatrTime\":\"00:00-06:00\",\"Price\":\"0.2800\"}]",
+            "Payment": "刷卡，线上",
+            "ElectricityFee": "[{\"StatrTime\":\"10:00-12:00;18:00-22:00\",\"Price\":\"1.2500\"},{\"StatrTime\":\"06:00-10:00;12:00-18:00;22:00-24:00\",\"Price\":\"1.2500\"},{\"StatrTime\":\"00:00-06:00\",\"Price\":\"1.2500\"}]",
+            "AreaCode": "420116",
+            "EquipmentInfos": [
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "11003",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11003_1"
+                        },
+                        {
+                            "Status": "3",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11003_2"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSD-60K750O/02S-快充",
+                    "EquipmentType": 1,
+                    "Power": 60
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "11004",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11004_1"
+                        },
+                        {
+                            "Status": "255",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11004_2"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSD-60K750O/02S-快充",
+                    "EquipmentType": 1,
+                    "Power": 60
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "11005",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "0",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11005_1"
+                        },
+                        {
+                            "Status": "0",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11005_2"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSD-60K750O/02S-快充",
+                    "EquipmentType": 1,
+                    "Power": 60
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20001",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20001_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20002",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "255",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20002_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20003",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20003_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20004",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20004_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20005",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20005_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20006",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20006_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20008",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20008_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20007",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20007_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20009",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20009_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20010",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20010_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20011",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20011_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20012",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20012_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20013",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20013_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20014",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "3",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20014_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "20015",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 180,
+                            "VoltageUpperLimits": 380,
+                            "ConnectorType": 3,
+                            "NationalStandard": 2,
+                            "Current": 122,
+                            "Power": 21,
+                            "ConnectorID": "20015_1"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSA-32SF/02-慢充",
+                    "EquipmentType": 2,
+                    "Power": 42
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "11002",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "3",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11002_1"
+                        },
+                        {
+                            "Status": "3",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11002_2"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSD-60K750O/02S-快充",
+                    "EquipmentType": 1,
+                    "Power": 60
+                },
+                {
+                    "ManufacturerName": "深圳橙电新能源科技有限公司",
+                    "EquipmentID": "11001",
+                    "ManufacturerID": "MA5DLH471",
+                    "ConnectorInfos": [
+                        {
+                            "Status": "2",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11001_1"
+                        },
+                        {
+                            "Status": "3",
+                            "VoltageLowerLimits": 200,
+                            "VoltageUpperLimits": 500,
+                            "ConnectorType": 4,
+                            "NationalStandard": 2,
+                            "Current": 124,
+                            "Power": 30,
+                            "ConnectorID": "11001_2"
+                        }
+                    ],
+                    "EquipmentName": "暂无命名",
+                    "EquipmentModel": "OSD-60K750O/02S-快充",
+                    "EquipmentType": 1,
+                    "Power": 60
+                }
+            ],
+            "ParkNums": 127,
+            "BusineHours": "00~24"
+        }
+    ]
 }

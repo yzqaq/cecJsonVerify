@@ -97,7 +97,8 @@
             "type": "array",
             "items": {
                 "$ref": "#/definitions/charge_detail"
-            }
+            },
+            "minItems":1
         }
     },
     "required": [
