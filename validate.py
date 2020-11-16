@@ -157,7 +157,7 @@ if __name__ == "__main__":
                 continue
             # print("输入json字符串，Ctrl+D 结束：")
             # json_strs=sys.stdin.readlines()
-            with open(os.path.join(shema_path, "schema_"+keys[index][0]+".json")) as f_schema, open(os.path.join(json_path, keys[index][0]+".json")) as f_json:
+            with open(os.path.join(shema_path, "schema_"+keys[index][0]+".json")) as f_schema, open(os.path.join(json_path, "input.json")) as f_json:
                 # if json_strs:
                 #     json_str="".join(json_strs)
                 # else:
