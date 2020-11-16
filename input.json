@@ -1,0 +1,32 @@
+{
+    "MeterNumStart": 0.0,
+    "MeterNumEnd": 0.0,
+    "TotalOriginalElecMoney": 0.0,
+    "TotalOriginalSeviceMoney": 0.0,
+    "TotalOriginalMoney": 0.0,
+    "TotalBusinessElecMoney": 0.0,
+    "TotalBusinessSeviceMoney": 0.0,
+    "TotalBusinessMoney": 0.0,
+    "AccountDate": "2020-12-04",
+    "StartChargeSeq": "MA01H3BQ1202012041434380001",
+    "ConnectorID": "9003431022",
+    "StartTime": "2020-12-04 14:34:39",
+    "EndTime": "2020-12-04 14:55:50",
+    "TotalPower": 1.000,
+    "TotalElecMoney": 40.00,
+    "TotalSeviceMoney": 40.0,
+    "TotalMoney": 80.00,
+    "StopReason": 0,
+    "SumPeriod": 0,
+    "ChargeDetails": [
+        {
+            "DetailStartTime": "2020-12-04 14:30:00",
+            "DetailEndTime": "2020-12-04 15:00:00",
+            "ElecPrice": 40.0000,
+            "SevicePrice": 40.0000,
+            "DetailPower": 1.000,
+            "DetailElecMoney": 40.00,
+            "DetailSeviceMoney": 40.00
+        }
+    ]
+}

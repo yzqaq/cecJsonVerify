@@ -6,7 +6,7 @@ import re
 import sys
 
 shema_path = "schema"
-json_path = "json"
+json_path = "."
 
 keys = (
     ("query_stations_info_res", "查询充电站信息（query_stations_info）"),
