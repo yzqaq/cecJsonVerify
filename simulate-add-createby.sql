@@ -1,5 +1,0 @@
-alter table simulated_cec_connector_flow add column (create_by varchar(32) not null default '' comment '创建者',update_by varchar(32) not null default '' comment '修改者');
-alter table simulated_cec_connector_flow_detail add column (create_by varchar(32) not null default '' comment '创建者',update_by varchar(32) not null default ''comment '修改者' );
-alter table simulated_cec_equipment_info add column (create_by varchar(32) not null default '' comment '创建者',update_by varchar(32) not null default '' comment '修改者');
-alter table simulated_cec_station_info add column (create_by varchar(32) not null default '' comment '创建者',update_by varchar(32) not null default '' comment '修改者');
-alter table simulated_cec_connector_info add column (create_by varchar(32) not null default '' comment '创建者',update_by varchar(32) not null default '' comment '修改者');
